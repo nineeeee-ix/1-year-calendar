@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <h1>Calendar</h1>
+    <button id="themeToggle">Dark Mode</button>
+  </div>
+
+  <div id="calendar"></div>
+
+  <div id="eventModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2 id="eventDate"></h2>
+      <p id="eventText">No event for this day.</p>
+      <input type="text" id="newEventInput" placeholder="Add your event here">
+      <button id="saveEvent">Save Event</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
