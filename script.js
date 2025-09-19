@@ -154,7 +154,6 @@ const calendar = document.getElementById("calendar");
       }
     });
 
-    // Add keyboard support
     document.addEventListener('keydown', function(e) {
       if (eventModal.style.display === 'block') {
         if (e.key === 'Escape') {
@@ -163,4 +162,5 @@ const calendar = document.getElementById("calendar");
           saveEvent.click();
         }
       }
+
     });
